@@ -12,5 +12,6 @@
     "name": "codinstorytime"
   },
   "fruits": [
+    { "id": 1, "title": "fake fruit" },
   ],
 }
