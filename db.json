@@ -13,5 +13,81 @@
   },
   "fruits": [
     { "id": 1, "title": "fake fruit" }
+  ],
+  "Categories": [
+    {
+      "Id": "AA",
+      "Name": "Acrylics and reline"
+    },
+    {
+      "Id": "AAA",
+      "Name": "Repair acrylic",
+      "Category": "AA",
+      "AllCategoryIds": [
+        "AA"
+      ]
+    },
+    {
+      "Id": "AAAAA",
+      "Name": "Jet denture repair acrylic",
+      "Category": "AAA",
+      "AllCategoryIds": [
+        "AA",
+        "AAA"
+      ]
+    },
+    {
+      "Id": "AAAAP",
+      "Name": "Duralay inlay pattern resin",
+      "Category": "AAA",
+      "AllCategoryIds": [
+        "AA",
+        "AAA"
+      ]
+    },
+    {
+      "Id": "AAALL",
+      "Name": "Lucitone 199&reg;&nbsp;repair",
+      "Category": "AAA",
+      "AllCategoryIds": [
+        "AA",
+        "AAA"
+      ]
+    },
+    {
+      "Id": "AAB",
+      "Name": "Reline materials",
+      "Category": "AA",
+      "AllCategoryIds": [
+        "AA"
+      ]
+    },
+    {
+      "Id": "AABAA",
+      "Name": "Dentusil&trade;",
+      "Category": "AAB",
+      "AllCategoryIds": [
+        "AA",
+        "AAB"
+      ]
+    },
+    {
+      "Id": "AABAB",
+      "Name": "Coe-soft&trade;",
+      "Category": "AAB",
+      "AllCategoryIds": [
+        "AA",
+        "AAB"
+      ]
+    },
+    {
+      "Id": "AABAC",
+      "Name": "Gc reline&trade;",
+      "Category": "AAB",
+      "AllCategoryIds": [
+        "AA",
+        "AAB"
+      ]
+    }
   ]
 }
